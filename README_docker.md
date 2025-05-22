@@ -10,6 +10,7 @@ sudo tee /etc/docker/daemon.json <<EOF
 }
 EOF
 
+
 ### 卸载旧版本Docker及相关组件
 sudo apt-get remove docker docker-engine docker.io containerd runc
 
