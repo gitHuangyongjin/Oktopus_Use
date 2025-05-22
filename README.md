@@ -19,6 +19,9 @@
 ## 4. 启动
 ### sudo  COMPOSE_PROFILES=nats,controller,cwmp,mqtt,stomp,ws,adapter,frontend,portainer docker-compose up -d
 
+### 关闭服务：
+### COMPOSE_PROFILES=nats,controller,cwmp,mqtt,stomp,ws,adapter,frontend,portainer docker-compose down
+
 ####  这一步如果网速慢，需要修改docker源，复制以下命令可以修改源
 ######      sudo mkdir -p /etc/docker
 ######         sudo tee /etc/docker/daemon.json <<EOF
